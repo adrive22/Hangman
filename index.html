@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GOThtml</title>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+
+<div style="display:none">
+<audio controls autoplay>
+  
+  <source src="Game of Thrones.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+	<div class="container">
+	<h1>Save Ned Stark!</h1>
+
+	<!--images for ned starks decapitation-->
+<div class=interactivecontainer>
+		<div id="imagecontainer">
+			<img id="screenshot" src="assets/images/screen1.png">
+		</div>
+	
+</div>
+
+<div class="playcontainer">
+
+	<!--word box for word to be guessed-->
+	<div>
+		<div class="chancescontainer">
+			<p> You have <span id="lives">4</span>chances left</p>
+		</div>
+	</div>
+	
+
+	<!--lines for guessing letters-->
+	<div>
+		<div class="guessingcontainer">
+					<p id="underlines">test</p>
+					<p id="wrongletters">test</p>
+					<p id="wins"></p>
+					<p id="loses"></p>
+		</div>
+	</div>
+
+
+	<!--letters guessed container-->
+	<div>
+		<div class="missedcontainer">
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+<script type='text/javascript' src="assets/javascript/game.js"></script>
+</body>
+</html>
